@@ -1,52 +1,81 @@
-# 📊 TelecomX LATAM - Análisis de Datos
+# 📊 Proyecto de Análisis de Datos de Clientes - TelecomX LATAM
 
-> Proyecto de análisis exploratorio de datos (EDA) en el sector de telecomunicaciones en la región LATAM, desarrollado en Google Colab como parte del curso de Ciencia de Datos.
-
----
-
-## 📌 Descripción
-
-Este repositorio contiene un cuaderno interactivo en Jupyter/Colab donde se abordan tareas de exploración, limpieza, visualización y análisis preliminar de un conjunto de datos relacionado con empresas de telecomunicaciones que operan en América Latina.
-
-El objetivo es identificar patrones de comportamiento, descubrir oportunidades de mejora y generar valor a partir de los datos.
+> Análisis exploratorio y preprocesamiento de datos de clientes en el sector telecomunicaciones de América Latina, desarrollado en Python con Pandas y Google Colab.  
 
 ---
 
-## 📁 Contenido del repositorio
+## 📂 Descripción del Proyecto
 
-- `TelecomX_LATAM.ipynb` – Cuaderno principal con el desarrollo del análisis.
-- `.gitignore` – Archivos y carpetas que se excluyen del control de versiones.
-- `README.md` – Documentación del proyecto.
+Este repositorio contiene el desarrollo del análisis y limpieza inicial de un conjunto de datos de clientes, con énfasis en preparar la información para análisis estadístico y visualizaciones posteriores.
 
----
-
-## 🔧 Herramientas utilizadas
-
-- Python 3.10+
-- Google Colab / Jupyter Notebook
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
+El objetivo es facilitar la comprensión del comportamiento de los clientes, especialmente en relación al fenómeno de `Churn` (abandono del servicio), mediante técnicas de preprocesamiento y análisis exploratorio.
 
 ---
 
-## 🧠 Objetivos del proyecto
+## 📑 Contenido
 
-- Comprender la estructura y calidad del dataset.
-- Aplicar técnicas de limpieza y transformación de datos.
-- Visualizar relaciones clave y distribuciones.
-- Identificar insights relevantes que puedan orientar decisiones de negocio.
+- `TelecomX_LATAM.ipynb`: Cuaderno principal con el desarrollo paso a paso del análisis y limpieza.  
+- `README.md`: Documentación y resumen del proyecto.  
+- `.gitignore`: Archivo para excluir archivos innecesarios del repositorio.  
 
 ---
 
-## 📝 Instrucciones de uso
+## 🚀 Progreso Actual
 
-1. Clonar este repositorio:
+### 1. Carga y Exploración Inicial  
+- Lectura del dataset con cuidado en la codificación para preservar caracteres especiales.  
+- Visualización preliminar para entender estructura y variables.  
 
-```bash
-git clone https://github.com/tu-usuario/nombre-del-repo.git
+### 2. Limpieza y Preparación de Datos  
+- Eliminación de filas duplicadas y vacías.  
+- Manejo de valores nulos y vacíos en columnas clave.  
+- Conversión de tipos de datos (ej. columnas numéricas mal tipadas).  
+- Creación y validación de nuevas columnas derivadas para análisis (ej. cálculo de cargos diarios).  
 
-2. Abrir el cuaderno en Google Colab o Jupyter Notebook.
+### 3. Análisis Descriptivo  
+- Estadísticas básicas con `.describe()` para variables numéricas.  
+- Conteo y visualización de valores únicos para identificar variables categóricas y sus niveles.  
 
-3. Ejecutar celda por celda para reproducir el análisis.
+---
+
+## 📈 Próximos Pasos  
+
+- Profundizar en el análisis exploratorio con visualizaciones dinámicas y gráficas.  
+- Aplicar técnicas estadísticas para entender correlaciones y patrones relevantes.  
+- Preparar dataset para futuros modelos de Machine Learning (cuando se aborde esa etapa).  
+
+---
+
+## 🔧 Tecnologías y Herramientas Utilizadas
+
+- Python 3.x  
+- Pandas  
+- Jupyter Notebook / Google Colab  
+- Matplotlib y Seaborn (para futuras visualizaciones)  
+
+---
+
+## 📚 Recursos Relacionados  
+
+- [Repositorio Original en GitHub](https://github.com/tu-usuario/tu-repo) *(Reemplaza con tu URL real)*  
+- [Curso de Ciencia de Datos - Alura Latam](https://www.aluracursos.com)  
+- [Documentación oficial de Pandas](https://pandas.pydata.org/docs/)  
+
+---
+
+## 👤 Autor
+
+Leandro Puebla Martínez  
+Estudiante de Ciencia de Datos | Puerto Madryn, Argentina  
+Contacto: [lean.gapm@gmail.com]  
+
+---
+
+## 📄 Licencia
+
+Este proyecto está bajo la Licencia MIT.  
+Consulta el archivo `LICENSE` para más detalles.  
+
+---
+
+*¡Gracias por visitar este proyecto! Cualquier sugerencia o colaboración es bienvenida.*  
