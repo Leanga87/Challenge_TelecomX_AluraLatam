@@ -74,7 +74,9 @@ Este proyecto forma parte del curso de Ciencia de Datos de **Alura Latam + Oracl
 
 ---
 
-> 🔗 Repositorio del dataset y código fuente disponible en este repositorio. Todas las visualizaciones se encuentran integradas en el notebook principal `TelecomX_LATAM.ipynb`.
+> 🔗 Repositorio del dataset y código fuente disponible en este repositorio.
+🖼️ Nota: Todos los gráficos generados con Plotly han sido convertidos a imágenes estáticas (formato PNG) utilizando Kaleido, para asegurar su correcta visualización en GitHub.
+📁 Las visualizaciones están embebidas en el notebook principal TelecomX_LATAM.ipynb.
 
 ---
 
