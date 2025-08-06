@@ -1,81 +1,80 @@
-# 📊 Proyecto de Análisis de Datos de Clientes - TelecomX LATAM
+# Análisis de Evasión de Clientes - TelecomX LATAM
 
-> Análisis exploratorio y preprocesamiento de datos de clientes en el sector telecomunicaciones de América Latina, desarrollado en Python con Pandas y Google Colab.  
-
----
-
-## 📂 Descripción del Proyecto
-
-Este repositorio contiene el desarrollo del análisis y limpieza inicial de un conjunto de datos de clientes, con énfasis en preparar la información para análisis estadístico y visualizaciones posteriores.
-
-El objetivo es facilitar la comprensión del comportamiento de los clientes, especialmente en relación al fenómeno de `Churn` (abandono del servicio), mediante técnicas de preprocesamiento y análisis exploratorio.
+Este proyecto analiza el fenómeno de **evasión de clientes (churn)** en una compañía de telecomunicaciones ficticia llamada **TelecomX LATAM**. El objetivo principal es identificar patrones de abandono, extraer insights clave y proponer estrategias que permitan reducir la tasa de cancelación del servicio.
 
 ---
 
-## 📑 Contenido
+## 📊 Objetivo del Proyecto
 
-- `TelecomX_LATAM.ipynb`: Cuaderno principal con el desarrollo paso a paso del análisis y limpieza.  
-- `README.md`: Documentación y resumen del proyecto.  
-- `.gitignore`: Archivo para excluir archivos innecesarios del repositorio.  
-
----
-
-## 🚀 Progreso Actual
-
-### 1. Carga y Exploración Inicial  
-- Lectura del dataset con cuidado en la codificación para preservar caracteres especiales.  
-- Visualización preliminar para entender estructura y variables.  
-
-### 2. Limpieza y Preparación de Datos  
-- Eliminación de filas duplicadas y vacías.  
-- Manejo de valores nulos y vacíos en columnas clave.  
-- Conversión de tipos de datos (ej. columnas numéricas mal tipadas).  
-- Creación y validación de nuevas columnas derivadas para análisis (ej. cálculo de cargos diarios).  
-
-### 3. Análisis Descriptivo  
-- Estadísticas básicas con `.describe()` para variables numéricas.  
-- Conteo y visualización de valores únicos para identificar variables categóricas y sus niveles.  
+- Comprender el comportamiento de los clientes que **cancelan su suscripción**.
+- Detectar **patrones** asociados a la evasón mediante el análisis exploratorio de datos.
+- Presentar visualizaciones claras y variadas que permitan comunicar resultados a stakeholders no técnicos.
+- Proponer **recomendaciones estratégicas** basadas en datos.
 
 ---
 
-## 📈 Próximos Pasos  
+## 📚 Estructura del Análisis
 
-- Profundizar en el análisis exploratorio con visualizaciones dinámicas y gráficas.  
-- Aplicar técnicas estadísticas para entender correlaciones y patrones relevantes.  
-- Preparar dataset para futuros modelos de Machine Learning (cuando se aborde esa etapa).  
+1. **Importación y limpieza de datos**  
+   - Conversión de valores categóricos a formato binario
+   - Eliminación de nulos y corrección de tipos de datos
+   - Renombrado de columnas para mayor claridad
 
----
+2. **Análisis Exploratorio de Datos (EDA)**  
+   - Visualización de la distribución de `Churn`
+   - Comparaciones entre `Churn` y variables categóricas (sexo, contrato, método de pago, etc.)
+   - Comparaciones entre `Churn` y variables numéricas (gasto total, tiempo de contrato, etc.)
+   - Gráficos interactivos (tortas, histogramas, heatmaps, líneas, scatter, etc.)
 
-## 🔧 Tecnologías y Herramientas Utilizadas
+3. **Análisis de Correlaciones** *(opcional)*  
+   - Estudio de la relación entre número de servicios contratados, cuenta diaria y evasón.
 
-- Python 3.x  
-- Pandas  
-- Jupyter Notebook / Google Colab  
-- Matplotlib y Seaborn (para futuras visualizaciones)  
+4. **Conclusiones e Insights**  
+   - Síntesis de hallazgos más relevantes
 
----
-
-## 📚 Recursos Relacionados  
-
-- [Repositorio Original en GitHub](https://github.com/tu-usuario/tu-repo) *(Reemplaza con tu URL real)*  
-- [Curso de Ciencia de Datos - Alura Latam](https://www.aluracursos.com)  
-- [Documentación oficial de Pandas](https://pandas.pydata.org/docs/)  
-
----
-
-## 👤 Autor
-
-Leandro Puebla Martínez  
-Estudiante de Ciencia de Datos | Puerto Madryn, Argentina  
-Contacto: [lean.gapm@gmail.com]  
+5. **Recomendaciones Estratégicas**  
+   - Acciones propuestas basadas en el análisis
 
 ---
 
-## 📄 Licencia
+## 👨‍💻 Tecnologías y Librerías
 
-Este proyecto está bajo la Licencia MIT.  
-Consulta el archivo `LICENSE` para más detalles.  
+- Python 3.11+
+- Jupyter Notebook
+- Pandas
+- Plotly
+- Seaborn
+- Matplotlib
 
 ---
 
-*¡Gracias por visitar este proyecto! Cualquier sugerencia o colaboración es bienvenida.*  
+## 📈 Resultados Clave
+
+- **Mayor tasa de abandono** en clientes con contrato mensual y sin servicios adicionales (seguridad online, soporte técnico, streaming).
+- **Usuarios sin pareja ni personas a cargo** presentan tasas de evasón levemente superiores.
+- Clientes con **menor antigüedad** y **menor gasto acumulado** muestran mayor propensión a cancelar.
+- Los métodos de pago automáticos y contratos a largo plazo **reducen la probabilidad de churn**.
+
+---
+
+## 📊 Recomendaciones Finales
+
+- Ofrecer **beneficios exclusivos a usuarios con contrato mensual** para fomentar la retención.
+- Promover paquetes que incluyan **múltiples servicios combinados**.
+- Implementar **alertas tempranas** para clientes con baja antigüedad y poco compromiso.
+- Estimular el uso de **métodos de pago automáticos** con promociones o descuentos.
+
+---
+
+## 🏑 Autor
+**Leandro Puebla Martínez**  
+Estudiante de Ciencia de Datos | Chubut Puerto Madryn
+
+Este proyecto forma parte del curso de Ciencia de Datos de **Alura Latam + Oracle Next Education**.
+
+---
+
+> 🔗 Repositorio del dataset y código fuente disponible en este repositorio. Todas las visualizaciones se encuentran integradas en el notebook principal `TelecomX_LATAM.ipynb`.
+
+---
+
